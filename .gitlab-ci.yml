@@ -1,0 +1,9 @@
+include:
+  - component: $CI_SERVER_FQDN/parkingguidancesystems/mobility/ci-templates/baseline@1
+  - component: $CI_SERVER_FQDN/parkingguidancesystems/mobility/ci-templates/flutter-check@1
+    inputs:
+      flutter_version: "3.35.7"
+      # Upstream's example tests no longer compile and some files are not
+      # formatted. Turn these on once the fork is cleaned up.
+      analyze: false
+      format: false
