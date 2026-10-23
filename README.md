@@ -1,6 +1,6 @@
 # Web Auth for Flutter
 
-> **ParkZen fork.** This is ParkZen's fork of [LinusU/flutter_web_auth](https://github.com/LinusU/flutter_web_auth), with the deprecated `registerWith` removed. The source lives on GitLab at [mobility/flutter_web_auth](https://gitlab.com/parkingguidancesystems/mobility/flutter_web_auth). `ParkZenApp/flutter_web_auth` on GitHub is a read-only mirror that the ParkZen app pulls from with `ref: master`, so anything merged to `master` reaches ParkZen on its next `flutter pub upgrade`.
+> **ParkZen fork.** This is ParkZen's fork of [LinusU/flutter_web_auth](https://github.com/LinusU/flutter_web_auth), with the deprecated Android `registerWith` (v1 embedding) removed. The source lives on GitLab at [mobility/flutter_web_auth](https://gitlab.com/parkingguidancesystems/mobility/flutter_web_auth). `ParkZenApp/flutter_web_auth` on GitHub is a read-only mirror that the ParkZen app pulls from with `ref: master`, so anything merged to `master` reaches ParkZen on its next `flutter pub upgrade`.
 
 A Flutter plugin for authenticating a user with a web service, even if the web service is run by a third party. Most commonly used with OAuth2, but can be used with any web flow that can redirect to a custom scheme.
 
